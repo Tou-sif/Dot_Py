@@ -152,6 +152,338 @@
 # print("Sum is:",result)
 
 
-import turtle
+# import turtle
 
-turtle.speed(1)
+# turtle.speed(1)
+
+# for i in range(20):
+#     turtle.forward(10)
+#     turtle.penup()
+#     turtle.forward(3)
+#     turtle.pendown()
+
+# turtle.exitonclick()
+
+
+# import turtle
+# turtle.shape("turtle")
+# turtle.speed(1)
+
+# for side_length in range(50, 100, 10):
+#     for i in range(4):
+#         turtle.forward(side_length)
+#         turtle.left(90)
+
+# turtle.exitonclick()
+
+
+# saarc = ["Bangladesh", "Afganistan", "Bhutan", "Nepal", "India", "Pakistan", "Sri Lanka"]
+# for country in saarc:
+#     print(country, "is a member of SAARC")
+
+
+# li = list(range(11))
+# print(li)
+
+# li = list(range(2,21,2))
+# print(li)
+
+
+# i = 0
+# while i < 5:
+#     print(i)
+#     i += 1
+
+
+# i = 5
+# while i >= 0:
+#     i -= 1
+#     print(i)
+
+
+# n = int(input("Please enter a positive integer: "))
+
+# m = 0
+# while m <= 10:
+#     print(f"{n} x {m} = {n*m}")
+#     m += 1
+
+
+# import turtle
+# turtle.color("blue")
+# turtle.speed(5)
+
+# counter = 0
+# while counter < 36:
+#     for i in range(4):
+#         turtle.forward(100)
+#         turtle.right(90)
+#     turtle.right(10)
+#     counter += 1
+    
+# turtle.exitonclick()
+
+
+# import turtle
+
+# height = int(input())
+
+# width = int(input())
+
+# turtle.speed(2)
+
+# turtle.penup()
+
+# for y in range(height):
+#     for x in range(width):
+#         turtle.dot()
+#         turtle.forward(20)
+#     turtle.backward(20 * width)
+#     turtle.right(90)
+#     turtle.forward(20)
+#     turtle.left(90)
+
+# turtle.exitonclick()
+
+
+# while True:
+#     n = int(input("Please enter a number (0 to exit): "))
+#     if n == 0:
+#         print("The program closed.")
+#         break
+#     print("Square of", n, "is", n*n)
+
+
+
+# while True:
+#     n = int(input("Please enter a number (0 to exit): "))
+
+#     if n < 0:
+#         print("Only positive numbers are allowed. Please try again.")
+#         continue
+
+#     if n == 0:
+#         print("The program closed.")
+#         break
+#     print("Square of", n, "is", n*n)
+
+
+# terminate = False
+# while not terminate:
+#     num1 = int(input("Please enter a number: "))
+#     num2 = int(input("Please enter another number: "))
+
+#     while True:
+#         operation = input("Please enter add/sub or quit to exit: ")
+#         if operation == "quit":
+#             terminate = True
+#             print("The program closed successfully.")
+#             break
+#         if operation not in ["add", "sub"]:
+#             print("Unknown operation!")
+#             continue
+#         if operation == "add":
+#             print("Result is: ", num1 + num2)
+#             break
+#         if operation == "sub":
+#             print("Result is: ", num1 - num2)
+#             break
+
+
+# def add(n1, n2):
+#     return n1 + n2
+
+# n = int(input())
+# m = int(input())
+# result = int(add(n,m))
+# print(result)
+
+# import turtle
+
+# turtle.speed(100)
+
+# def draw_sqr(side_length):
+#     for i in range(4):
+#         turtle.forward(side_length)
+#         turtle.left(90)
+
+# counter = 0
+# while counter < 90:
+#     draw_sqr(100)
+#     turtle.right(4)
+#     counter += 1
+# turtle.exitonclick()
+
+
+# def myfnc(x):
+#     print("inside myfnc", x)
+#     x = 10
+#     print("inside myfnc", x)
+
+# x = 20
+# myfnc(x)
+# print(x)
+
+
+# def myfnc(y):
+#     print("y =", y)
+#     print("x =", x)
+
+# x = 20
+# myfnc(x)
+# print("y =", y)
+
+
+# def myfnc(y=10):
+#     print("y =", y)
+
+# x = 20
+# myfnc(x)
+# myfnc()
+
+
+# def myfnc(x, y = 10, z):
+#     print("x =", x, "y =", y, "z =", z)
+
+# x = 5
+# y = 6
+# z = 7
+# myfnc(x, y, z)
+
+
+
+# def myfnc(x, y = 10, z=0):
+#     print("x =", x, "y =", y, "z =", z)
+
+# x = 5
+# y = 6
+# z = 7
+# myfnc(x, y, z)
+# myfnc(x, y)
+# myfnc(x)
+
+
+# def myfnc(x, z, y = 10):
+#     print("x =", x, "y =", y, "z =", z)
+
+# myfnc(x= 1, y = 2, z = 5)
+# a = 5
+# b = 6
+# myfnc(x = a, z = b)
+# a = 1
+# b = 2
+# c = 3
+# myfnc(y = a, z = b, x = c)
+
+
+# def add_numbers(numbers):
+#     result = 0
+#     for number in numbers:
+#         result += number
+#     return result
+
+# result = add_numbers([1, 2, 3, 4, 5, 9])
+# print(result)
+
+
+# def test_fnc(li):
+#     li[0] = 10
+
+# my_list = [1, 2, 3, 4]
+# print("before function call", my_list)
+# test_fnc(my_list)
+# print("after function call", my_list)
+
+
+# list1 = [1, 2, 3, 4]
+# list2 = list1
+
+# print(list1)
+# print(list2)
+# list2[0] = 100
+# print(list2)
+# print(list1)
+
+# li3 = [1, 2, 3, 4, 5, 6, 7, 8]
+# result = sum(li3)
+# print(result)
+
+
+# def greet():
+#     print("Good day!")
+# greet()
+# print("Thank you")
+
+
+
+# def greet(name, time):
+#     print(f"Good {time}, {name}")
+
+# # greet("Tousif", "Night")
+# # greet("Tousif", "Morning")
+# # greet("Abid")
+
+
+# greet(time= "Evening", name = "Tousif")
+# greet("Tousif", time="Night")  right//
+# greet(time="Night", "Tousif")  wrong//
+# greet("Morning", name="Tousif") wrong//
+
+
+# def greet(*names):
+#     for x in names:
+#         print(f"Hello, {x}")
+
+# greet("Jack", "James", "John", "Sherly", "Tousif", "Abid")
+
+
+
+# def name(**names):
+#     print("First Name: ", names['fname'])
+#     print("Last Name: ", names['lname'])
+
+# name(fname = "Tousif", lname = "Haq")
+
+
+
+# def greet_1(name = "Buddy", time = "Morning"):
+#     print(f"Good {time}, {name}")
+
+# greet_1(name = "Tousif", time = "Evening")
+# greet_1(name = "Tousif")
+# greet_1()
+# greet_1(time = "Night")
+
+
+
+# def func(apn):
+#     apn.append(6)
+#     print(apn)
+
+# list_1 = [1,2,3,4,5]
+# print(list_1)
+# func(list_1)
+# print(list_1)   mutable
+
+
+
+# def func(s):
+#     s = s.replace("H", "J")
+#     print(s)
+
+# string = "Hello"
+# print(string)
+# func(string)
+# print(string)   immutable 
+
+
+
+# def peri_rect(h, w):
+#     peri = 2*(h + w)
+#     return peri
+
+# p = peri_rect(6,2)
+# print("The perimeter is: ", p)
+
+
+
