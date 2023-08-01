@@ -487,3 +487,188 @@
 
 
 
+# s = 'Dimik\'s'
+# print(s)
+
+
+
+# c = ['A','B','C']
+# for value, index in enumerate(c):
+#     print(index, value)
+
+# v = list(enumerate(c))
+# for i in v:
+#     print(i)
+
+# print(v)
+    
+
+
+# desh = "Bangla" + "desh"
+# print(desh)
+
+# x = 50 + 5
+# print(x)
+
+# y = "50" + "5"
+# print(y)
+
+
+
+# country = "Bangladesh"
+# print(country.find("Bengla"))   # if the selected string is not found it returns -1.
+
+
+
+# country = "North Korea"
+# print(country)
+# new_country = country.replace("North", "South")
+# print(new_country)
+
+
+# text = "this is a test. this is another test. this is the final test."
+# text = text.replace("this", "This")
+# print(text)
+
+
+
+# n_txt = " this is a test string with spaces. "
+# for i in range(6):
+#     print(n_txt)
+#     print(n_txt.lstrip())
+#     print(n_txt.rstrip())
+#     print(n_txt.strip())
+#     print(n_txt)
+
+
+
+# c1 = "bangladesh"
+
+
+# c1_up = c1.upper()
+# print(c1_up.upper())
+
+# c1_low = c1.lower()
+# print(c1_low)
+
+# c1_cap = c1.capitalize()
+# print(c1_cap)
+
+
+# wish = "I want to be free of worries"
+
+# # wish_split = wish.split()
+# # for i in  wish_split:
+# #     print(i)
+
+# # print(wish_split)
+# # print(wish)
+
+
+# print(wish.count("e"))
+# print(wish.startswith("i"))
+# print(wish.endswith("es"))
+
+
+
+# name = "Mr Anderson"
+# if name.startswith("Mr"):
+#     print("Dear Sir")
+
+
+
+# import turtle
+
+# name = turtle.textinput("Name", "What is your name?")
+# name = name.lower()
+# if name.startswith("mr"):
+#     print("Hello Sir, how are you?")
+# elif name.startswith("mrs") or name.startswith("miss") or name.startswith("ms"):
+#     print("Hello Madam, how are you?")
+# else:
+#     name = name.capitalize()
+#     str = (f"Hi, {name} How are you?")
+#     print(str)
+
+# turtle.exitonclick
+
+
+
+# str = "a quick brown fox jumps over the lazy dog"
+# for c in "abcdefghijklmnopqrstuvwxyz":
+#     print(c, str.count(c))
+
+
+
+# str = input("Please enter a word: ")
+# rts = str [::-1]
+
+# if str == rts:
+#     print(str, "is a palindrome")
+# else:
+#     print(str, "is not a palindrome")
+
+
+
+
+# str = input()
+# ans = ""
+# for position in range(0,len(str),2):
+#     ans += str[position^1] + str[position]
+
+# print(ans)
+
+
+
+# str = input()
+# ans = ""
+
+# for pos in range(0,len(str)):
+#     ans += str[pos^1]
+# print(ans)
+
+
+
+# def filter_letters(input_string):
+#     uppercase_letters = []
+#     lowercase_letters = []
+#     digits = []
+#     symbols = []
+
+#     for char in input_string:
+#         if char.isupper():
+#             uppercase_letters.append(char)
+#         elif char.islower():
+#             lowercase_letters.append(char)
+#         elif char.isdigit():
+#             digits.append(char)
+#         else:
+#             symbols.append(char)
+
+
+#     return uppercase_letters, lowercase_letters, digits, symbols
+
+
+# input_string = input()
+# uppercase_letters, lowercase_letters, digits, symbols = filter_letters(input_string)
+
+# print("Uppercase letters:", "".join(uppercase_letters))
+# print("Lowercase letters:", "".join(lowercase_letters))
+# print("Digits:", "".join(digits))
+# print("symbols:", "".join(symbols))
+
+
+
+# Target hours of employees.
+# hours = eval(input())  #[int(hours) for hours in input().split()] This is the main comment
+# target = int(input())
+
+# app_values = [num for num in hours if num >= target]
+# if app_values:
+#     count_app_values = len(app_values)
+#     print(count_app_values)
+# else:
+#     print(len(app_values))
+
+
+
