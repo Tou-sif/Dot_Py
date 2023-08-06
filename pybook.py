@@ -812,4 +812,7 @@
 #     print(f"Sl:{index + 1}-", value, type(value))
 
 
-
+# b, w, y = 6,8,7
+# total = b + w + y
+# prob_bw = (b / total) * (w / (total-1))
+# print(prob_bw)   #problem by saiham, drawing balck ball and then white ball consecutively
