@@ -672,3 +672,144 @@
 
 
 
+# li = [1,3,45,7,9,0,11]
+
+# li_sort = li.sort()
+
+# print(li)
+
+
+# list_a = ['apple', 'orange', 'banana', 'sugarcane', 'pineapple']
+# print(list_a)
+# item = int(input())
+# if item in list_a:
+#     list_a.remove(item)
+#     print(list_a)
+# else:
+#     print(item, "not in list")
+
+
+
+# list_a = ['apple', 'orange', 'banana', 'sugarcane', 'pineapple']
+# print(list_a)
+# for index, val in enumerate(list_a):
+#     print(index + 1, val)
+
+# item = list_a.pop(int(input())-int(1))
+# print(item)
+# print(list_a)
+
+
+
+# li_1 = [1,2,3]
+# lii_2 = [3,4,5,6,7]
+
+# li_1.extend(lii_2)
+# print(li_1)
+# print(li_1.count(10))
+
+
+
+# fruits = ['apple', 'orange', 'mango', 'banana', 'guava']
+# item = fruits.pop(2)
+# print(f"You poped a {item}")
+# print(fruits)
+
+
+
+# blank_list = []
+# for _ in range(1,4):
+#     blank_list.append(_)
+# print(blank_list)
+# lis_0 = [4,5,6]
+# print(blank_list + lis_0)
+# print(blank_list * 3)
+
+
+
+# li = ['a', 'b', 'c', 'd']
+# print(li)
+# str = "-".join(li)
+# print(str)
+
+
+
+# list_a = [1,2,3,4]
+# list_2a = []
+
+# for x in list_a:
+#     list_2a.append(2*x)
+
+# print(list_2a)
+# _1 =  "-".join(map(str,list_2a))
+# print(_1)
+
+
+
+# li = [1,2,3,4]
+# new_li = []
+# for x in li:
+#     new_li.append(2 *x)
+
+# print(new_li)
+
+# nw_li = [2 * x for x in li if 2*x % 2 == 0]
+# print(nw_li)
+
+
+
+# all_nums = [1,2,3,4,5,6,7,8,9,10]
+# # even_nums = []
+# # odd_nums = []
+# # for x in all_nums:
+# #     if x %2 == 0:
+# #         even_nums.append(x)
+# #     else:
+# #         odd_nums.append(x)
+
+# # print(even_nums)
+# # print(odd_nums)
+
+# even_nums = [x for x in all_nums if x %2 == 0]
+# print(even_nums)
+# odd_nums = [x for x in all_nums if x %2 != 0]
+# print(odd_nums)
+
+
+
+# list_of_nums = [1,2,3,4,5]
+# sqr_of_nums = [x ** 2  for x in list_of_nums]
+# print(sqr_of_nums)
+
+
+
+# x = (1,2,3,4,5)
+# print(x)
+# x[0] = 6 # for observation purposes the tuple doesn't support item assignment
+# y = [1,2,3,4,5]
+# print(y)
+
+# y[0] = 10
+# print(y)
+# # this code will not run
+
+
+
+# numbers = (10,20,30,40)
+# n1, n2, n3, n4 = numbers
+# n34 = n3, n4
+# print(n1, n2, n3, n4, n34)
+
+
+
+# items_tup = (1,2,5.5, 'Tou', ['a', 'b', 'c'], ('apple', 'mango'))
+# for item in items_tup:
+#     print(item, type(item))
+
+# tups_list = list(items_tup)
+# print(type(tups_list))
+# for index, value in enumerate(tups_list):
+#     print(f"Sl:{index + 1}-", value, type(value))
+
+
+
