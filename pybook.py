@@ -816,3 +816,96 @@
 # total = b + w + y
 # prob_bw = (b / total) * (w / (total-1))
 # print(prob_bw)   #problem by saiham, drawing balck ball and then white ball consecutively
+
+
+
+# items_set = {'pen', 'ball', 'laptop'}
+# print(items_set, type(items_set))
+
+# li = [1,2,3,4]
+# tpl = (1,2,3,)
+# A = set(li)
+# B = set(tpl)
+# print(A)
+# print(B)
+
+# country = set("Bangladesh")
+# print(country)
+# country_2 = set("Sri Lanka")
+# print(country_2)
+# print("S" in country)
+
+# new_country = country & country_2
+# print(new_country)
+# new_country2 = country | country_2
+# print(new_country2)
+# new_country3 = country ^ country_2
+# new_country4 = country - country_2
+# print(new_country3)
+# print(new_country4)
+
+
+
+# marks = [77,78,91,86,74,80,98,99,100,65,73]
+# roll = int(input("Please enter your roll number: "))
+
+# print("Marks:", marks[roll - 1])
+
+
+# marks_2 = [[77,78],[91,86],[74,80],[98,99],[100,65],[73,80]]
+# roll_2 = int(input("Give roll number: "))
+# print("Your marks:", marks_2[roll_2 - 1])
+
+
+
+# marks = {1005: 77, 1002: 76, 1002: 62, 1004: 78, 1003: 65}
+# print(marks[1003], type(marks))
+
+# dt = {}
+# print(type(dt))
+# dt[1] = "one"
+# dt[2] = "two"
+# dt[3] = "three"
+# print(dt[3])
+
+
+
+# dt = {'a': 'A','b': 'B', 'c': 'C'}
+# dt[(1,2,3)] = "tuple"
+# print(dt)
+
+# li = [1,2,3]
+# dt[li] = "list"
+# print(dt)
+
+
+
+# marks = {"DH1001": {"Bangla": 74, "English": 89},"DH1002": {"Bangla": 70, "English": 75}}
+# print(marks["DH1001"])
+# marks["DH1003"] = {"Bangla": 68, "English": 72}
+# print(marks)
+# print(marks["DH1003"]["Bangla"])
+
+
+
+# bd_division_info = {}
+# bd_division_info["Barisal"] = {"district": 6, "upazila": 39, "union": 333}
+# bd_division_info["Chittagong"] = {"district": 11, "upazila": 97, "union": 336}
+# bd_division_info["Dhaka"] = {"district": 13, "upazila": 93, "union": 1833}
+# bd_division_info["Khulna"] = {"district": 10, "upazila": 59, "union": 270}
+# bd_division_info["Mymensingh"] = {"district": 4, "upazila": 34, "union": 350}
+# bd_division_info["Rajshahi"] = {"district": 8, "upazila": 70, "union": 558}
+# bd_division_info["Rangpur"] = {"district": 8, "upazila": 58, "union": 536}
+# bd_division_info["Sylhet"] = {"district": 4, "upazila": 38, "union": 334}
+
+# divisions = bd_division_info
+# for key in bd_division_info:
+#     print(key)
+#     print(bd_division_info[key])
+
+# for key, value in bd_division_info.items():
+#     print(key)
+#     print(value)
+
+
+
