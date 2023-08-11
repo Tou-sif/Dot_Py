@@ -909,3 +909,213 @@
 
 
 
+# import random
+
+# print(random.random())
+# print(random.randint(10,50))
+
+
+
+# import turtle
+# import random
+# turtle.penup()
+# for i in range(20):
+#     x = random.randint(-200, 200)
+#     y = random.randint(-200, 200)
+#     turtle.setposition(x,y)
+#     turtle.dot()
+
+# turtle.exitonclick()
+
+
+
+# import turtle
+# import random
+
+# colors = ['red', 'green', 'blue', 'yellow','orange', 'black', 'purple']
+# turtle.penup()
+
+# for i in range(50):
+#     x = random.randint(-100, 100)
+#     y = random.randint(-100, 100)
+
+#     turtle.setposition(x,y) # set a random position
+#     random_color_index = random.randint(0, len(colors) - 1) # set a random color
+#     select_color = colors[random_color_index]
+#     turtle.dot(select_color)
+
+# turtle.exitonclick()
+
+
+
+# import random
+# number = random.randint(1, 1000)
+# attempts = 0
+
+# while True:
+#     input_number = int(input("Guess the number between 1 and 1000: "))
+#     attempts += 1
+#     score = 1000
+#     if input_number == number:
+#         print("Correct!")
+#         break
+#     if input_number > number:
+#         print("Too big! Try again.")
+#     else:
+#         print("Too small! Try again")
+
+# print(f"You tried {attempts} times to find the correct number. Your score is {score - attempts}.")
+
+
+
+# import random
+
+# number = random.randint(1, 1000)
+# attempts = 0
+# score = 20
+# low = 1
+# high = 1000
+
+# while True:
+#     print("Guess the number between 1 and 1000: ")
+#     input_number = (low + high) // 2 # only integer numbers because of integer division
+#     print(f"My guess is: {input_number}")
+#     attempts += 1
+
+#     if input_number == number:
+#         print("Correct!")
+#         break
+#     if input_number > number:
+#         print("Too big! Try again.")
+#         high = input_number - 1
+#     else:
+#         print("Too small! Try again")
+#         low = input_number + 1
+
+# print(f"You tried {attempts} times to find the correct number. Your score is {score - attempts}.")
+
+
+
+
+# def is_prime(n):
+#     if n < 2:
+#         return False
+#     prime = True
+#     for x in range(2, n):
+#         if n % x == 0:
+#             print(f"{n} is divisiible by {x}")
+#             prime = False
+#             return prime # first change to optimize code
+#     return prime
+
+# while True:
+#     number = int(input("Please enter a number (enter 0 to exit): "))
+#     if number == 0:
+#         break
+#     prime = is_prime(number)
+#     if prime is True:
+#         print(f"{number} is a prime number.")
+#     else:
+#         print(f"{number} is not a prime number.")
+
+
+
+# def is_prime_eff(n=1013):
+#     if n == 2:
+#         return True # 2 is a prime number
+#     if n % 2 == 0:
+#         print(f"{n} is divisible by 2.")
+#         return False # all even numbers except 2 are non-prime numbers
+#     if n < 2:
+#         return False # numbers less than 2 are non-prime
+#     prime = True
+#     for x in range(3, n, 2):
+#         if n % x == 0:
+#             print(f"{n} is divisible by {x}.")
+#             prime = False
+#             return prime
+#     return prime
+
+# # while True:
+# #     number = int(input("Please enter a number (enter 0 to exit): "))
+# #     if number == 0:
+# #         break
+# #     prime = is_prime_eff(number)
+# #     if prime is True:
+# #         print(f"{number} is a prime number.")
+# #     else:
+# #         print(f"{number} is not a prime number.")
+
+
+
+
+
+
+# import math
+
+# def is_prime_final(n=1013):
+#     if n < 2:
+#         return False
+#     if n == 2:
+#         return True
+#     if n % 2 == 0:
+#         return False
+#     m = math.sqrt(n)
+#     m = int(m) + 1
+#     for x in range(3, m, 2):
+#         if n % x == 0:
+#             return False
+#     return True
+
+# import timeit
+# t1 = timeit.timeit(is_prime_eff)
+# t2 = timeit.timeit(is_prime_final)
+
+# print(t1, t2, t1/t2)
+
+
+
+
+# import turtle
+# turtle.color('red', 'yellow')
+# turtle.begin_fill()
+# while True:
+#     turtle.forward(200)
+#     turtle.left(170)
+#     if abs(turtle.position()) < 1:
+#         break
+# turtle.end_fill()
+# turtle.exitonclick()
+
+
+# import turtle
+# turtle.begin_fill()
+# turtle.forward(200)
+# turtle.left(120)
+# turtle.forward(200)
+# turtle.left(120)
+# turtle.forward(200)
+# turtle.end_fill()
+
+# turtle.exitonclick()
+
+
+
+
+# fib_x = 1
+# fib_next = 1
+# n = int(input())
+
+# if n <= 2:
+#     fib_n = 1
+# else:
+#     i = 3
+#     while i <= n:
+#         i += 1
+#         fib_temp = fib_x + fib_next
+#         fib_x = fib_next
+#         fib_next = fib_temp
+
+#     fib_n = fib_next
+
+# print(fib_n)
